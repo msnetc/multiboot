@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="multiboot1" />
+        <module name="multiboot3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="multiboot" target="1.6" />
+      <module name="multiboot1" target="1.6" />
+      <module name="multiboot2" target="1.6" />
+      <module name="multiboot3" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
